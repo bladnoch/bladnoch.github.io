@@ -1,7 +1,7 @@
 /**
  * quotes.js: has quotes(quote:author), and displays it
  * @author DoungukKim
- * @since 7/5/2023
+ * @since 7/21/2023
  * @version v0.0.1
  */
 

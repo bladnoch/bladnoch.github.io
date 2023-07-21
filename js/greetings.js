@@ -1,7 +1,7 @@
 /**
  * greetings.js : login and greeting after login
  * @author DoungukKim
- * @since 7/3/2023
+ * @since 7/21/2023
  * @version v0.0.1
  */
 const loginInput= document.querySelector("#login-form input");
