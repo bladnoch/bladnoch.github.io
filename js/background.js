@@ -22,6 +22,8 @@ const bgImage=document.createElement("img");
 
 bgImage.src=`image/${chosenImages}`;
 
+bgImage.classList.add("background-image");
+
 document.body.appendChild(bgImage);
 
 console.log(bgImage);

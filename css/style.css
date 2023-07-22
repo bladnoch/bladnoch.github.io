@@ -8,15 +8,71 @@
 .hidden {
     display: none;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-/*ul {*/
-/*    list-style-type: none; !* 기본 숫자/불릿 스타일 제거 *!*/
-/*    padding: 0; !* 기본 패딩 제거 *!*/
-/*}*/
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: -apple-system, sans-serif;
+    position: relative;
+}
 
-/*li {*/
-/*    padding: 5px 10px; !* 목록 항목 주변 간격 추가 *!*/
-/*    margin-bottom: 5px; !* 목록 항목 간 간격 추가 *!*/
-/*    border: 1px solid black; !* 테두리 추가 *!*/
-/*    background-color: lightgrey; !* 배경색 지정 *!*/
-/*}*/
+.left, .center, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+#clock,
+#login-form,
+#greeting,
+#quote,
+#todo-form,
+#todo-list,
+#weather {
+    border: 1px solid #000; /* 각각의 요소에 아웃라인 추가 */
+    padding: 8px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+input,
+button {
+    font-family: -apple-system, sans-serif;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#clock {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+#todo-list li {
+    list-style-type: none;
+}
