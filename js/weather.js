@@ -7,7 +7,8 @@
  */
 
 //api from open weather
-const API_KEY=${{secrets.OPEN_WEATHER_API_KEY}};
+
+const API_KEY=process.env.OPEN_WEATHER_API_KEY;
 function onGeoGo(position){
     const lat=position.coords.latitude;
     const lon=position.coords.longitude;

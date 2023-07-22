@@ -1,0 +1,5 @@
+jobs:
+  example_job:
+    runs-on: macos-latest
+    env:
+      OPEN_WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
