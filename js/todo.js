@@ -45,7 +45,7 @@ function paintTodo(newTodo){
 
     li.id=newTodo.id;
     span.innerText = newTodo.text;
-    button.innerText="X";
+    button.innerText=" X ";
     button.addEventListener("click",deleteDodo);
 
     li.appendChild(button);
