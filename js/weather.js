@@ -8,7 +8,7 @@
 
 //api from open weather
 
-const API_KEY="API KEY HERE"
+const API_KEY="2c049274cd7ff91c05be244e8fe4a45d"
 function onGeoGo(position){
     const lat=position.coords.latitude;
     const lon=position.coords.longitude;
